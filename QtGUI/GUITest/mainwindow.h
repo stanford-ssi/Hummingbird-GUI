@@ -11,6 +11,8 @@
 #include <QDebug>
 #include <QtWidgets>
 
+#include <string>
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -29,6 +31,8 @@ private slots:
     void on_onBtn_clicked();
 
     void on_offBtn_clicked();
+
+    void readSerial();
 
 private:
     // this is the mainwindow graphical object itself

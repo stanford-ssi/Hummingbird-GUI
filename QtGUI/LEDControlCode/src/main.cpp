@@ -9,5 +9,10 @@ void loop() {
     while (Serial.available()) {
         int LEDstate = Serial.parseInt();
         digitalWrite(10, LEDstate);
+        if (LEDstate == 1) {
+            Serial.write("S1");
+        } else {
+            Serial.write("S0");
+        }
     }
 }
