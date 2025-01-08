@@ -1,4 +1,4 @@
-This is a very simple GUI test used to toggle the LED on/off.
+This is a very simple GUI test used to toggle an LED on/off through the Arduino.
 
 The way this works is not exactly straightforward: the Qt GUI is only able to send serial outputs to the Arduino, which then parses the serial input to determine what the current state of the LED should be.
 
