@@ -19,7 +19,7 @@ app.layout = [
 
 @callback(
     Output('graph-content', 'figure'),
-    Input('dropdown-selection', 'value'
+    Input('dropdown-selection', 'value')
 )
 def update_graph(value):
     dff = df[df.country==value]

@@ -1,0 +1,26 @@
+'''
+Valves that need to be actuated:
+PTs(1-10): pressure readings 
+Power valves(4): on and off 
+Thermocouples(6): temperature readings
+Load Cells(3): force readings
+Motorized ball valve: in between 
+
+also put expected values and have the interface raise warnings or errors if something is unusual 
+green, yellow, red for different values 
+
+graphs? or just numbers readings 
+
+percent change > threshold: boldface 
+
+
+pi controls the on and off or the switching, and you remotely control these from tcp
+40 GPIOS on pi to control the actuators 
+
+
+
+'''
+#serial to get data 
+
+#then use python to make the gui interface 
+
