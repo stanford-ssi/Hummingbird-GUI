@@ -11,10 +11,10 @@ class Body:
         self.frame = tk.Frame(parent)
 
         # Left panel 
-        self.left_panel = LeftPanel(self.frame, self.store)
+        self.left_panel = LeftPanel(self.frame)
 
         # Right panel 
-        self.right_panel = RightPanel(self.frame, self.store)
+        self.right_panel = RightPanel(self.frame)
 
     def render(self):
         self.left_panel.render()
