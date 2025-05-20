@@ -9,7 +9,7 @@ class Header:
         self.frame = tk.Frame(parent)
 
         # Tabs label
-        self.title = tk.Label(self.frame, text='Capture', font=('Aria',26))
+        self.title = tk.Label(self.frame, text='Fountain Hopper - Hummingbird GUI', font=('Comic Sans',32))
 
     def render(self):
         self.title.pack(fill='both', expand=True)
