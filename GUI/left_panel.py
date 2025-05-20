@@ -6,10 +6,10 @@ class LeftPanel:
 
     def __init__(self, parent):
         # Create frame
-        self.frame = tk.Label(parent)
+        self.frame = tk.Label(parent, background='blue')
 
         # PT, TT, and LC measurements
 
 
     def render(self):
-        self.frame.pack(side='left', fill='both')
+        self.frame.pack(side='left', fill='both', expand=True)

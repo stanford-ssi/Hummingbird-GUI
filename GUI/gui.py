@@ -20,10 +20,6 @@ def main():
     body = Body(window)
     body.render()
 
-    # left panel: reads measurements from PTs, TTs, load cells
-
-    # right panel: controls solenoid and power valves + estop 
-
     # start event loop
     window.mainloop()
 

@@ -6,7 +6,7 @@ class RightPanel:
 
     def __init__(self, parent):
         # Create frame
-        self.frame = tk.Label(parent)
+        self.frame = tk.Label(parent, background='red')
 
         # PV and SV controls
 

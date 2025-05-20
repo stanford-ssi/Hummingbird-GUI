@@ -12,5 +12,5 @@ class Header:
         self.title = tk.Label(self.frame, text='Fountain Hopper - Hummingbird GUI', font=('Comic Sans MS',32))
 
     def render(self):
-        self.title.pack(fill='both', expand=True)
-        self.frame.pack(fill='both', expand=True)
+        self.title.pack()
+        self.frame.pack()

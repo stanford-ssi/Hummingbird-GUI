@@ -10,10 +10,10 @@ class Body:
         # Create frame
         self.frame = tk.Frame(parent)
 
-        # Left panel 
+        # Left panel: reads measurements from PTs, TTs, load cells
         self.left_panel = LeftPanel(self.frame)
 
-        # Right panel 
+        # Right panel: controls solenoid and power valves + estop 
         self.right_panel = RightPanel(self.frame)
 
     def render(self):
