@@ -16,9 +16,9 @@ class MeasureWidget:
 
     def render(self):
         # locations of the part name, measurements, and units 
-        self.partname_box.pack(side = 'left', padx = 30)
-        self.measurement_box.pack(side = 'left', padx = 30)
-        self.units_box.pack(side = 'left', padx = 30)
+        self.partname_box.pack(side = 'left', padx = 30, expand=True)
+        self.measurement_box.pack(side = 'left', padx = 30, expand=True)
+        self.units_box.pack(side = 'left', padx = 30, expand=True)
         self.frame.pack(fill = 'x', side = 'top')
 
 
