@@ -19,9 +19,7 @@ class MeasureWidget:
         self.partname_box.pack(side = 'left', padx = 30)
         self.measurement_box.pack(side = 'left', padx = 30)
         self.units_box.pack(side = 'left', padx = 30)
-
         self.frame.pack(fill = 'x', side = 'top')
-
 
 
 
